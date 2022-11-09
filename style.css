@@ -109,6 +109,15 @@
   font-size: 24px;
 }
 
+.newslatter {
+  background-color: #fcfafa;
+  height: 514px;
+}
+
+.newslatter-items {
+  margin-top: 70px;
+}
+
 .hero {
   display: flex;
 }
@@ -116,6 +125,23 @@
 .hero-image {
   width: 1000px;
   height: 600px;
+}
+
+.input-email input {
+  width: 403px;
+  height: 72px;
+  border: 0px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+input[type="email"] {
+  padding: 0px 30px;
+}
+
+.input-email span {
+  padding: 28px;
+  background-color: #e5f0b6;
+  border-radius: 0 8px 8px 0;
 }
 
 .text-hero {
@@ -130,6 +156,48 @@
 
 .text-banner {
   font-size: 22px;
+}
+
+.text-partner {
+  margin: 0 auto;
+}
+
+.text-partner b {
+  font-size: 64px;
+}
+
+.text-newslatter {
+  margin-bottom: 25px;
+}
+
+.text-newslatter h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.partner {
+  height: 305px;
+  width: 100%;
+}
+
+.persegi {
+  height: 305px;
+  width: 1000px;
+  display: flex;
+}
+
+.persegi img {
+  margin-right: 40px;
+}
+
+.say {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.say h2 {
+  font-size: 20px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 768px) {
@@ -181,6 +249,16 @@
     text-align: center;
   }
 
+  .text-partner b {
+    font-size: 35px;
+  }
+
+  .text-newslatter h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+  }
+
   .hero-image {
     width: auto;
     height: 233px;
@@ -189,5 +267,56 @@
   .hero {
     display: block;
     text-align: center;
+  }
+
+  .newslatter {
+    background-color: #fcfafa;
+    height: 314px;
+  }
+
+  .newslatter-items {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .input-email input {
+    width: auto;
+    height: 51px;
+    border: 0px;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  input[type="email"] {
+    padding: 0px 28px;
+  }
+
+  .input-email span {
+    padding: 17px;
+    background-color: #e5f0b6;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .persegi {
+    margin-top: 100px;
+    text-align: center;
+    height: 205px;
+    max-width: 100%;
+    display: block;
+  }
+
+  .persegi img {
+    margin: 10px;
+    width: auto;
+    height: 30px;
+  }
+
+  .say h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
   }
 }
